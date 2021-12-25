@@ -1,6 +1,7 @@
 ![my photo](https://github.com/DaniilGK/rsschool-cv/blob/gh-pages/my-photo.jpg?raw=true=100x20)
 # Daniil Gerasimyonok
 **Frontend Developer**
+
 ***
 #### Contack Information:
 
@@ -8,17 +9,20 @@
 - **Telegram:** @Raz_poliva
 - **Phone:** +380(68) 629-36-29
 - **GitHub:** https://github.com/DaniilGK
+
 ***
 
 #### About me
 
 I am responsible and **responsive**, I am ready to receive new knowledge and share it with everyone. I know how to work in a team. I want to ***develop*** in my endeavors.
+
 ***
 #### Skills
 * *HTML5* 
 * *CSS*
 * *JavaScript*
 * *Git*
+
 ***
 
 #### Code Example
@@ -29,6 +33,7 @@ function getRandomPhoto() {
     return photos[Math.floor(Math.random() * photos.length)];
 }
 ```
+
 ***
 
 #### Experience
@@ -41,6 +46,7 @@ Hot shop cook. Specialization in Asian cuisine. Team consists of 5 people
 
 * ОДО Биотайм 2020 - 2021
 Content manager. Responsible for filling the website with content using CMS (Bitrix) and negotiation for the creation of printed materials
+
 ***
 
 #### Education
@@ -48,6 +54,7 @@ Content manager. Responsible for filling the website with content using CMS (Bit
 * Course
   * [**HtmlAcademy**](https://htmlacademy.ru/)
   * [**LearnJS**](https://learn.javascript.ru/)
+  
 ***
 
 #### English
