@@ -20,3 +20,11 @@ I am responsible and responsive, I am ready to receive new knowledge and share i
 =====
 
 
+#### Skills
+
+
+* HTML5 1
+* CSS 2
+* JavaScript 3
+* Git 4
+======
