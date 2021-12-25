@@ -12,3 +12,11 @@
 ====
 **GitHub:** https://github.com/DaniilGK
 ====
+
+
+
+### About me
+I am responsible and responsive, I am ready to receive new knowledge and share it with everyone. I know how to work in a team. I want to develop in my endeavors.
+=====
+
+
