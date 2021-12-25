@@ -1,5 +1,4 @@
 # Daniil Gerasimyonok
-====
 **Frontend Developer**
 ====
 ## Contack Information:
@@ -11,5 +10,5 @@
 ====
 **Phone:** +380(68) 629-36-29
 ====
-**GitHub:** [https://github.com/DaniilGK]
+**GitHub:** https://github.com/DaniilGK
 ====
