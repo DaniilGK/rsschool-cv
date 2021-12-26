@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background: rgb(114, 114, 114);
+}
+
+.header-content-nav {
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav-links {
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    opacity: .65;
+}
