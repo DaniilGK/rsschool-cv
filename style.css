@@ -14,16 +14,6 @@ body {
     padding: 20px;
 }
 
-hr {
-    margin: -48px auto 0px;
-    padding: 0;
-    height: 50px;
-    border: none;
-    border-bottom: 1px solid #1f1209;
-    box-shadow: 0 20px 20px -20px #333;
-    width: 95%;
-}
-
 /*Header start*/
 .header {
     display: flex;
@@ -72,14 +62,13 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    line-height: 70px;
 }
 
 .user-name {
     font-size: 26px;
     letter-spacing: 4px;
     text-transform: uppercase;
-    line-height: 45px;
+    line-height: 25px;
 }
 
 .user-proffesion {
@@ -92,6 +81,85 @@ hr {
     height: 5px;
     background: #8b9ac3;
     border: 0;
-    margin: 30px
+    margin: 30px 0 0 0;
 }
 /*About me stop*/
+
+
+/*Section conteiner start*/
+.section-conteiner {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 0 80px;
+}
+
+.hr-user-name {
+    margin: -48px auto 0px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 95%;
+}
+
+.vl {
+    box-shadow: 0 20px 20px -20px #333;
+    border-left: 2px solid rgb(114, 114, 114);
+    height: 275px;
+}
+
+.hr-all-section {
+    width: 80%;
+    height: 2px;
+    background: cornflowerblue;
+    border: 0;
+}
+
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: cornflowerblue;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+.title-line {
+    height: 3px;
+    background: #727272;
+    border: 0;
+}
+
+.info {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin-bottom: 26px;
+    background: #dbdbdb42;
+}
+
+.info-link {
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #a9a414;
+}
+
+.info-link:hover {
+    opacity: .75;
+}
+
+.description {
+    letter-spacing: normal;
+    font-size: 21px;
+    line-height: 30px;
+    text-transform: none
+}
+/*Section conteiner stop*/
+
+
+/*Footer start*/
+
+/*Footer stop*/
