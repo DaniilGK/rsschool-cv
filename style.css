@@ -1,4 +1,313 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth; 
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Header start*/
+.header {
+    display: flex;
+    align-items: center;
+    height: 135px;
+    background: rgb(114, 114, 114);
+}
+
+.github-logo {
+    height: 80px;
+}
+
+.header-content-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav-links {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    opacity: .65;
+}
+
+.subtitle {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: rgb(65 65 255);
+}
+/*Header stop*/
+
+
+/*About me start*/
+.about-me-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-photo {
+    border-radius: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.user-proffesion {
+    font-size: 25px;
+    color: #2483d5;
+    line-height: 70px;
+}
+
+.hr-about-me {
+    height: 5px;
+    background: #8b9ac3;
+    border: 0;
+    margin: 30px 0 0 0;
+}
+/*About me stop*/
+
+
+/*Section conteiner start*/
+@keyframes flicker {
+    0% { color: rgb(225, 0, 255); }
+    30% { color: rgb(43, 255, 0);}
+    68%, 72% { color: rgb(255, 0, 0); }
+    100% { color: rgba(30, 255, 0, 0.616); }
+}
+
+.section-conteiner-iteam {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-conteiner {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 0 80px;
+}
+
+.hr-user-name {
+    margin: -48px auto 0px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 95%;
+}
+
+.vl {
+    box-shadow: 0 20px 20px -20px #333;
+    border-left: 2px solid rgb(114, 114, 114);
+    height: 275px;
+}
+
+
+.hr-all-section {
+    width: 80%;
+    height: 2px;
+    background: cornflowerblue;
+    border: 0;
+}
+
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: cornflowerblue;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+.title-line {
+    height: 3px;
+    background: #727272;
+    border: 0;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.info {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 33px;
+    margin-bottom: 6px;
+    background: #60606042;
+}
+
+.info-link {
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #a9a414;
+}
+
+.info-link:hover {
+    opacity: .75;
+}
+
+.description {
+    letter-spacing: normal;
+    font-size: 21px;
+    line-height: 30px;
+    text-transform: none
+}
+/*Section conteiner stop*/
+
+
+/*Footer start*/
+    .footer {
+        display: flex;
+        align-items: center;
+        height: 165px;
+        background: #383838;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 45px;
+    }
+
+   .years {
+       font-size: 23px;
+   }
+   
+   .rs-logo {
+       height: 100px;
+   }
+
+   .youtube-logo {
+       height: 120px;
+   }
+/*Footer stop*/
+
+
+@media (max-width: 1480px) {
+    .wrapper {
+        width: auto;
+        max-width: 1220px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .nav-links {
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .user-name {
+        font-size: 22px;
+    }
+
+    .user-proffesion {
+        font-size: 20px;
+    }
+
+    .nav-list {
+        display: unset;
+        columns: 2;
+        gap: 20px;
+    }
+
+    .nav-links {
+        line-height: 30px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .user-photo {
+        max-height: 225px;
+    }
+}
+
+@media (max-width: 815px) {
+    .nav-links {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .user-name {
+        font-size: 18px;
+    }
+
+    .user-proffesion {
+        font-size: 17px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .vl {
+        display: none;
+    }
+
+    .about-me-content {
+        flex-direction: column;
+    }
+
+    .section-conteiner {
+        grid-template-columns: none;
+    }
+
+    .github-logo {
+        height: 50px;
+    }
+
+    .youtube-logo {
+        height: 80px;
+    }
+
+    .rs-logo {
+        height: 50px;
+    }
+}
+
