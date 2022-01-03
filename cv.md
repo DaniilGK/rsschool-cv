@@ -1,4 +1,4 @@
-![my photo](https://github.com/DaniilGK/rsschool-cv/blob/gh-pages/my-photo.jpg?raw=true=100x20)
+![my photo](https://github.com/DaniilGK/rsschool-cv/blob/gh-pages/img/my-photo.jpg?raw=true=100x20)
 # Daniil Gerasimyonok
 **Frontend Developer**
 
