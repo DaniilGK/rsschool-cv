@@ -2,6 +2,8 @@
 # Daniil Gerasimyonok
 ## Frontend Developer
 
+(C:\Users\danii\OneDrive\Desktop\RSS\rsschool-cv\cv-foto.jpg)
+
 ## Contact information: 
 - **Telegram:** @Raz_poliva
 - **Email:** gerasimenokd638@gmail.com
@@ -59,4 +61,3 @@ let result = {};
 * German - Advanced
 * English - Intermediate
 
-## 
