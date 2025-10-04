@@ -2,7 +2,7 @@
 # Daniil Gerasimyonok
 ## Frontend Developer
 
-(C:\Users\danii\OneDrive\Desktop\RSS\rsschool-cv\cv-foto.jpg)
+!(C:\Users\danii\OneDrive\Desktop\RSS\rsschool-cv\cv-foto.jpg)
 
 ## Contact information: 
 - **Telegram:** @Raz_poliva
