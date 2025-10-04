@@ -28,21 +28,35 @@ Currently seeking opportunities — **internships, freelance work, or junior dev
 * Git, GitHub
 * VSCode
 
+> In this convenient way, you can count the number of identical elements in an array.
+
 ``` 
-function sortByBit(arr) {
+let result = {};
 
-	const countBits = num => num.toString(2).split("").filter(bit => bit === "1").length;
-
-	return arr.sort((a, b) => {
-		const countA = countBits(a);
-		const countB = countBits(b);
-
-		if(countA === countB) {
-			return a - b
-		}
-
-		return countA - countB
-	})
-}
-sortByBit()
+	for (let i = 0; i < arr.length; i++) {
+  	let elem = arr[i];
+  		if(result[elem]) {
+  			result[elem]++
+  		} else {
+  			result[elem] = 1
+  		}
+	}
+	return result
 ```
+
+> I practice my skills on [Codewars](https://www.codewars.com/).
+
+## Courses: 
+
+* [HTML Academy](https://htmlacademy.ru/)
+* [LearnJS](https://javascript.info/)
+* [Codecademy JavaScript](https://www.codecademy.com/learn)
+* [Rolling Scopes School JS/FE Pre-School](https://rs.school/)
+
+## Languages:
+
+* Russian - Native
+* German - Advanced
+* English - Intermediate
+
+## 
